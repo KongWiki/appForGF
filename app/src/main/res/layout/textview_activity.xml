@@ -96,12 +96,12 @@
             android:layout_height="wrap_content"
             app:duration="12000"
             app:showPainter="true"
-            app:text="祝姚阿姨"
+            app:text="**新年快乐"
             app:textInCenter="true"
             app:pathStrokeColor="@android:color/holo_blue_light"
             app:paintStrokeColor="@android:color/holo_blue_light"
             app:showPainterActually="true"
-            app:textSize="55sp"
+            app:textSize="50sp"
             android:layout_gravity="center_horizontal"
     />
 
@@ -111,9 +111,9 @@
             android:layout_height="wrap_content"
             app:duration="12000"
             app:showPainter="true"
-            app:text="身体健康"
+            app:text="我们搁一块两年多啦"
             app:textInCenter="true"
-            app:textSize="55sp"
+            app:textSize="30sp"
             app:pathStrokeColor="@color/colorAccent"
             app:paintStrokeColor="@color/colorAccent"
             android:layout_gravity="center_horizontal"
@@ -125,22 +125,14 @@
             android:layout_height="wrap_content"
             app:duration="12000"
             app:showPainter="true"
-            app:text="青春靓丽"
+            app:text="一起加油鸭(๑•́ ₃ •̀๑)"
             app:textInCenter="true"
             app:pathStrokeColor="@android:color/holo_red_dark"
             app:paintStrokeColor="@android:color/black"
-            app:textSize="55sp"
+            app:textSize="30sp"
             android:layout_gravity="center_horizontal"
     />
 
-
-    <Button
-            android:background="@color/fab"
-            android:id="@+id/btn_start"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="start"
-    />
 
     <!--<Button-->
             <!--android:id="@+id/btn_stop"-->
@@ -155,6 +147,13 @@
             android:id="@+id/sb_progress"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
+    <Button
+            android:background="@color/fab"
+            android:id="@+id/btn_start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="start"
+    />
 
 </LinearLayout>
 
